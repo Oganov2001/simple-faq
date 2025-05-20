@@ -1,0 +1,10 @@
+*.env
+
+*.fig
+*.xd
+
+.DS_Store
+.prettierignore
+
+README_template.md
+README-temporary.md

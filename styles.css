@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Inter;
+    src: url(resources/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background-color: #F8FAFC;
+    font-family: Inter;
+    color: #030616;
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+
+/* Misc */
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #4E80EE;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 2.75rem;
+}
+
+header h1 {
+    margin: 0.5rem 0rem;
+}
+
+/* Main */
+
+main {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+main section {
+    text-align: left;
+    margin: 0rem 2rem;
+}
+
+main section p {
+    margin: 1rem 0rem;
+}
+
+main section h2{
+    margin: 1rem 0rem;
+}
+
+main section ol, main section ul {
+    margin: 0rem 1.25rem;
+}
+
+main section ol li, main section ul li {
+    margin: 0.5rem 0rem;
+    padding: 0.25rem 0rem;
+}
+
+hr {
+    margin: 2rem 2rem;
+    color: #D2D5DA;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Main */
+
+    main section {
+        width: 30%;
+    }
+}

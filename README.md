@@ -1,0 +1,3 @@
+# Simple FAQ
+
+WIP
