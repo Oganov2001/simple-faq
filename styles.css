@@ -47,7 +47,7 @@ a {
 header {
     background-color: white;
     text-align: center;
-    padding: 2.75rem;
+    padding: 5rem;
 }
 
 header h1 {
@@ -58,7 +58,8 @@ header h1 {
 
 main {
     text-align: center;
-    margin-top: 4rem;
+    margin: 4rem auto;
+    width: 90%;
 }
 
 main section {
@@ -71,7 +72,7 @@ main section p {
 }
 
 main section h2{
-    margin: 1rem 0rem;
+    margin: 2rem 0rem;
 }
 
 main section ol, main section ul {
@@ -88,10 +89,8 @@ hr {
     color: #D2D5DA;
 }
 
-@media only screen and (max-width: 1024px) {
-    /* Main */
-
-    main section {
-        width: 30%;
+@media only screen and (min-width: 600px) {
+    main {
+        width: 60%;
     }
 }
